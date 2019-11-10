@@ -1,0 +1,22 @@
+.data-card {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background: cornsilk;
+
+    &.small {
+        width: 350px;
+    }
+
+    &.medium {
+        width: 600px;
+    }
+
+    &.large {
+        width: 900px;
+    }
+
+    &.custom {
+        width: 100%;
+    }
+}
