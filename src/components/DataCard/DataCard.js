@@ -23,4 +23,9 @@ DataCard.propTypes = {
     type: PropTypes.string.isRequired
 }
 
+DataCard.defaultProps = {
+    type: '',
+    value: ''
+}
+
 export default DataCard;

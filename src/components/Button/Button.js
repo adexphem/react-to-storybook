@@ -23,4 +23,9 @@ Button.propTypes = {
     type: PropTypes.string.isRequired
 }
 
+Button.defaultProps = {
+    type: '',
+    value: ''
+}
+
 export default Button;
